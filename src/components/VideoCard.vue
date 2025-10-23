@@ -173,27 +173,4 @@ const formatViews = (views) => {
   opacity: 0.8;
   cursor: not-allowed;
 }
-
-/* Desktop: horizontal card */
-@media (min-width: 1024px) {
-  .video-card {
-    display: grid;
-    grid-template-columns: 320px 1fr;
-    align-items: stretch;
-  }
-
-  .thumbnail-container {
-    aspect-ratio: auto;
-    height: 100%;
-  }
-
-  .thumbnail {
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .video-info {
-    padding: 16px 18px;
-  }
-}
 </style>
